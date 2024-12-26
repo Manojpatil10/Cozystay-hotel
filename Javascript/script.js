@@ -5,4 +5,9 @@ $(document).ready(function(){
     loop:true,
     autoplay:true,
   });
+
+
+  $('.menu').click(function(){
+    $('.ham-nav').slideToggle(1000);
+  })
 });

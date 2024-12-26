@@ -99,6 +99,30 @@
   letter-spacing: 1px;
   padding: 0 10px;
 }
+.ham-nav{
+  display: none;
+  position: absolute;
+  top: 90px;
+  left: 0;
+  width: 100%;
+  padding: 50px 30px 100px;
+  background-color: var(--black);
+  z-index: 99;
+}
+.ham-nav ul li{
+  padding: 10px 0;
+}
+.ham-nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--white);
+  font-family: var(--Marcellus);
+  transition: all 0.3s ease-in-out;
+}
+.ham-nav ul li a:hover{
+  color: var(--color1);
+}
+
 .hero-section{
   /* padding: 50px 25px; */
   height: 85vh;
@@ -196,10 +220,6 @@
   background-repeat: no-repeat;
   padding: 120px 0;
 }
-.video-btn-div{
-  /* height: 400px; */
-  /* width: 100%; */
-}
 .video-btn{
   display: flex;
   font-size: 50px;
@@ -212,9 +232,6 @@
   border-radius: 50%;
   background: transparent;
 }
-/* .accomodation-inner{
-  padding: 80px 25px;
-} */
 .accomodation-img{
   transition: transform 0.5s ease-in-out;
 }
@@ -326,11 +343,6 @@
 .discover-city{
   background-color: #151719;
   padding: 80px 0;
-}
-.discover-city-content{
-}
-.city{
-  /* padding: 0 25px 80px 25px; */
 }
 .city-image{
   border: 1px solid #ab916c;
@@ -502,9 +514,7 @@
 
 
 @media(min-width:500px){
-  .chef-content{
-    /* padding: 80px 45px; */
-  }
+
   .experienced-chef{
     padding-bottom: 150px;
   }
@@ -519,22 +529,10 @@
   .facilities-inner{
     padding: 220px 0 80px;
   }
-  .footer-top{
-    /* padding: 80px 45px; */
-  }
-  .footer-bottom{
-    /* padding: 50px 45px; */
-  }
 }
 @media(min-width:768px){
-  .nav-bottom{
-    /* padding: 30px 60px; */
-  }
   .black-div{
     width: 250px;
-  }
-  .header-content{
-    /* padding: 50px 60px; */
   }
   .logo{
     height: 40px;
@@ -543,9 +541,6 @@
   .header-h1{
     font-size: 48px;
     line-height: 64px;
-  }
-  .services,.chef-content{
-    /* padding: 80px 60px; */
   }
   .img{
     width: 80%;
@@ -586,26 +581,14 @@
   .discover-city{
     padding-top: 300px;
   }
-  /* .discover-city-content{
-    padding: 80px 60px 40px 60px;
-  }
-  .city{
-    padding: 0 60px 80px 60px;
-  } */
-  .footer-top{
-    /* padding: 80px 60px; */
-  }
-  .footer-bottom{
-    /* padding: 50px 60px; */
-  }
   .footer-h2{
     font-size: 32px;
     line-height: 43px;
   }
 }
 @media(min-width:992px){
-  .nav-bottom{
-    /* padding: 30px 80px; */
+  .ham-menu{
+    top: 145px;
   }
   .header-content{
     padding: 50px 80px;
@@ -626,25 +609,10 @@
   .facility-div-content{
     padding: 65px;
   }
-  .discover-city-content{
-    /* padding: 80px 75px 40px 75px; */
-  }
-  .city{
-    /* padding: 0 75px 80px 75px; */
-  }
-  .footer-top{
-    /* padding: 80px; */
-  }
-  .footer-bottom{
-    /* padding: 50px 80px; */
-  }
 }
 @media(min-width:1200px){
   .menu{
     margin-right: 30px;
-  }
-  .nav-bottom{
-    /* padding: 30px 85px; */
   }
   .header-content{
     padding: 150px 85px;
@@ -660,9 +628,6 @@
     font-size: 56px;
     line-height: 67px;
   }
-  /* .video-btn-div{
-    height: 600px;
-  } */
   .img2-div{
     position: absolute;
     top: -100px;
@@ -690,9 +655,6 @@
   }
   .reviews{
     padding: 80px 80px 40px 80px;
-  }
-  .hospitality{
-    /* padding: 80px 75px 260px 75px; */
   }
   .para1{
     width: 75%;
@@ -727,9 +689,6 @@
   }
   .chef-content{
     padding: 80px 0 80px 80px;
-  }
-  .hospitality{
-    /* padding: 80px 85px 260px 85px; */
   }
   .para1{
     width: 60%;
